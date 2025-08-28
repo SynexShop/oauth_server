@@ -11,5 +11,7 @@ export default function handler(req, res) {
     `&redirect_uri=${encodeURIComponent(redirectUri)}` +
     `&response_type=code&scope=identify%20guilds.join&state=${state}`;
 
+  console.log(url);
+
   res.redirect(302, url);
 }
