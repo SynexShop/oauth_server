@@ -1,0 +1,9 @@
+{
+  "name": "oauth_server",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
