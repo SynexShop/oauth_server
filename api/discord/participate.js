@@ -9,7 +9,7 @@ export default function handler(req, res) {
   const url =
     `https://discord.com/api/oauth2/authorize?client_id=${DISCORD_CLIENT_ID}` +
     `&redirect_uri=${encodeURIComponent(redirectUri)}` +
-    `&response_type=code&scope=identify%20guilds.join&state=${state}`;
+    `&response_type=code&scope=identify+guilds.join&state=${state}`;
 
   console.log(url);
 
